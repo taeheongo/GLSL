@@ -22,4 +22,6 @@ uniform vec2 u_mouse;// mouse position in screen pixels. x좌표, y좌표라서 
 
 void main(){
     gl_FragColor=vec4(abs(sin(u_time)),0.,0.,1.);
+    
+    // 다른 내장함수를 알고 싶다면 https://thebookofshaders.com/glossary/
 }

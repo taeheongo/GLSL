@@ -1,3 +1,7 @@
 # Learning GLSL
 
-glsl cheet sheet : https://thebookofshaders.com/glossary/
+GLSL cheet sheet : https://thebookofshaders.com/glossary/
+
+
+​
+
