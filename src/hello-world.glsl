@@ -2,6 +2,9 @@
 precision mediump float;
 #endif
 
+// glsl프로그램의 기본 구조
+// source : https://thebookofshaders.com/02/
+
 vec3 red(){
     return vec3(1.,0.,0.);
 }
