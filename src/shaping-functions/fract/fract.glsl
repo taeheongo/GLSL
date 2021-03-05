@@ -12,7 +12,7 @@ void main(){
     vec2 st=gl_FragCoord.xy/u_resolution;
     
     float y=fract(st.x*10.)*.1+.5;
-    // fract(x)는 x를 1.0으로 나눈 나머지
+    // fract(x)는 x를 1.0으로 나눈 나머지.
     // fract(x)는 mod(x, 1.0)과 동일하다.
     // 여기서는 x* 10을 해주면 주기가 0.1이 되고 평행이동 + 0.5만큼 평행이동해주면 된다.
     
