@@ -16,6 +16,8 @@ float plot(vec2 st,float pct){
     smoothstep(pct,pct+.01,st.y);
 }
 
+// 이해가 어려우면 사진 참조
+
 void main(){
     vec2 st=gl_FragCoord.xy/u_resolution.xy;
     vec3 color=vec3(0.);
